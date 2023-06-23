@@ -1,0 +1,3 @@
+tasks:
+  - name: Initialize Environment
+    init: npm install -g truffle
