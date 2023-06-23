@@ -25,7 +25,7 @@ To check the value of `evenCount`, enter `(await instance.evenCount()).toString(
 
 You may also make a simple async function (`let getEvenCount = async() => (await instance.evenCount()).toString()`) so that you just need to call that function (`getEvenCount()`) to get the value of `evenCount`
 
-## Callable Variables and Functions
+### Callable Variables and Functions
 
 `uint public evenCount`
 
