@@ -19,14 +19,20 @@ This project demonstrates the use of `require()`, `assert()`, and `revert()` fun
 5. Enter `let instance = await HelloWorld.deployed()` so that you could interact with the smart contract using the object `instance`
 6. Play around with the contract using `instance.<functionName>(<argument>)` (For example: `instance.requireEvenNumber(2)`)
 
-Note: To check the value of `evenCount`, enter `(await instance.evenCount()).toString()`
+Note: 
+
+To check the value of `evenCount`, enter `(await instance.evenCount()).toString()`
+
 You may also make a simple async function (`let getEvenCount = async() => (await instance.evenCount()).toString()`) so that you just need to call that function (`getEvenCount()`) to get the value of `evenCount`
 
 ## Callable Variables and Functions
 
 `uint public evenCount`
+
 `function requireEvenNumber(uint number) external`
+
 `function assertEvenNumber(uint number) external`
+
 `function revertEvenNumber(uint number) external`
 
 ## Author
